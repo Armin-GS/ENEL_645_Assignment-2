@@ -1,0 +1,24 @@
+[NbConvertApp] Converting notebook Assignment2.ipynb to script
+[NbConvertApp] Writing 11808 bytes to Assignment2.py
+[I 2024-11-06 14:24:57,818] A new study created in memory with name: ENEL645
+[I 2024-11-06 14:48:41,471] Trial 0 finished with value: 0.9280028637250265 and parameters: {'num_hidden_layers': 2, 'hidden_layer_size_0': 384, 'hidden_layer_size_1': 512}. Best is trial 0 with value: 0.9280028637250265.
+[I 2024-11-06 15:11:39,977] Trial 1 finished with value: 0.8708982743157281 and parameters: {'num_hidden_layers': 1, 'hidden_layer_size_0': 256}. Best is trial 1 with value: 0.8708982743157281.
+[I 2024-11-06 15:34:49,335] Trial 2 finished with value: 0.8669176321559482 and parameters: {'num_hidden_layers': 1, 'hidden_layer_size_0': 512}. Best is trial 2 with value: 0.8669176321559482.
+[I 2024-11-06 15:58:11,123] Trial 3 finished with value: 0.8605389425489638 and parameters: {'num_hidden_layers': 1, 'hidden_layer_size_0': 320}. Best is trial 3 with value: 0.8605389425489638.
+[I 2024-11-06 16:21:33,033] Trial 4 finished with value: 0.8577245966593424 and parameters: {'num_hidden_layers': 1, 'hidden_layer_size_0': 512}. Best is trial 4 with value: 0.8577245966593424.
+[I 2024-11-06 16:23:56,942] Trial 5 pruned. 
+[I 2024-11-06 16:26:21,375] Trial 6 pruned. 
+[I 2024-11-06 16:28:44,020] Trial 7 pruned. 
+[I 2024-11-06 16:31:06,938] Trial 8 pruned. 
+[I 2024-11-06 16:33:28,948] Trial 9 pruned. 
+[I 2024-11-06 16:35:51,505] Trial 10 pruned. 
+[I 2024-11-06 16:38:14,190] Trial 11 pruned. 
+[I 2024-11-06 16:42:54,983] Trial 12 pruned. 
+[I 2024-11-06 16:47:35,953] Trial 13 pruned. 
+[I 2024-11-06 16:49:59,116] Trial 14 pruned. 
+[I 2024-11-06 16:52:22,738] Trial 15 pruned. 
+[I 2024-11-06 16:57:04,733] Trial 16 pruned. 
+[I 2024-11-06 17:20:13,616] Trial 17 finished with value: 0.8669895701938205 and parameters: {'num_hidden_layers': 1, 'hidden_layer_size_0': 320}. Best is trial 4 with value: 0.8577245966593424.
+[I 2024-11-06 17:43:31,004] Trial 18 finished with value: 0.8585577079984876 and parameters: {'num_hidden_layers': 1, 'hidden_layer_size_0': 448}. Best is trial 4 with value: 0.8577245966593424.
+[I 2024-11-06 17:45:55,424] Trial 19 pruned.
+Best hyperparameters:  {'num_hidden_layers': 1, 'hidden_layer_size_0': 512}

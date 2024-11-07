@@ -90,4 +90,4 @@ Additional analysis on the impact of changing the hyperparameters on the loss va
 
 ### Additional information
 
-The output log of the code can be found in the files provided in the **outputs** folder.
+The output log of the code can be found in the files provided in the [**outputs**](./outputs) folder.
