@@ -43,41 +43,26 @@ The loss function chosen for this task is the **Cross Entrophy loss function**. 
 
 The confusion matrices of each dataset can be seen below:
 
-Training Dataset:
+| _Training Dataset_ | Black | Blue | Green | TTR  |
+| ------------------ | ----- | ---- | ----- | ---- |
+| **Black**          | 2084  | 21   | 2     | 4    |
+| **Blue**           | 7     | 4331 | 10    | 7    |
+| **Green**          | 4     | 43   | 1941  | 3    |
+| **TTR**            | 7     | 19   | 2     | 1715 |
 
-\[
-\begin{bmatrix}
-       & \text{Black} & \text{Blue} & \text{Green} & \text{TTR} \\
-\text{Black} & 2084 & 21   & 2    & 4    \\
-\text{Blue}  & 7    & 4331 & 10   & 7    \\
-\text{Green} & 4    & 43   & 1941 & 3    \\
-\text{TTR}   & 7    & 19   & 2    & 1715 \\
-\end{bmatrix}
-\]
+| _Validation Dataset_ | Black | Blue | Green | TTR |
+| -------------------- | ----- | ---- | ----- | --- |
+| **Black**            | 313   | 38   | 7     | 14  |
+| **Blue**             | 37    | 701  | 20    | 10  |
+| **Green**            | 11    | 31   | 306   | 4   |
+| **TTR**              | 21    | 17   | 4     | 266 |
 
-Validation Dataset:
-
-\[
-\begin{bmatrix}
-       & \text{Black} & \text{Blue} & \text{Green} & \text{TTR} \\
-\text{Black} & 313 & 38  & 7   & 14  \\
-\text{Blue}  & 37  & 701 & 20  & 10  \\
-\text{Green} & 11  & 31  & 306 & 4   \\
-\text{TTR}   & 21  & 17  & 4   & 266 \\
-\end{bmatrix}
-\]
-
-Testing Dataset:
-
-\[
-\begin{bmatrix}
-       & \text{Black} & \text{Blue} & \text{Green} & \text{TTR} \\
-\text{Black} & 500 & 111 & 18  & 66  \\
-\text{Blue}  & 45  & 991 & 29  & 20  \\
-\text{Green} & 28  & 43  & 720 & 8   \\
-\text{TTR}   & 81  & 115 & 15  & 641 \\
-\end{bmatrix}
-\]
+| _Testing Dataset_ | Black | Blue | Green | TTR |
+| ----------------- | ----- | ---- | ----- | --- |
+| **Black**         | 500   | 111  | 18    | 66  |
+| **Blue**          | 45    | 991  | 29    | 20  |
+| **Green**         | 28    | 43   | 720   | 8   |
+| **TTR**           | 81    | 115  | 15    | 641 |
 
 #### Hyperparameter optimization
 
